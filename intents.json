@@ -1,0 +1,36 @@
+{"intents" : [
+  {"tag":  "malaria",
+  "patterns" : ["fever, chills, headache", "fever, cold, chills, headache", "fever, chills, headache, darker urine"],
+  "responses" :  ["You seem to be coming down with malaria, just take anti-malaria drugs with the right dosage and you should be fine!!!", "Yea, it's malaria...", "I think you're coming down with malaria", "I'm pretty sure that's malaria though", "It's just malaria you weak boy"],
+    "questions" : ["Have you found yourself vomiting?", "has your urine looked darker?"]
+  },
+  {
+    "tag": "diarrhoea",
+    "patterns" : ["watery stools, frequent stools, vomiting", "stomach pain, stooling, nausea", "loose stools"],
+    "responses" : ["You seem to be coming down with diarrhoea, i recommend that you seek medical help immediately", "you seem to have diarrhea, that sucks", "I'm so sorry to say this but you have diarrhea"],
+    "questions" : ["do you have stomach pains?", "have you been vomiting"]
+  },
+  {
+    "tag" : "pneumonia",
+    "patterns" : ["fever, fatigue, loss of appetite, chest pain, fast heartbeat, cough", "fever, fatigue, chest pain, shallow breathing, coughing"],
+    "responses" : ["You seem to have pneumonia", "You seem to have pneumonia", "I'm sorry to tell you but you have pneumonia"],
+    "questions" : ["do your fingernails and lips have a blue tinge?", "have you experienced convulsion lately", "have you been having difficulty breathing?"]
+  },
+  {
+    "tag" : "Hypertension",
+    "patterns" : ["high blood pressure", "headache, chest pain, unusual heartbeat rate, vision problems, confusion, dizziness, difficulty breathing", "headache, chest pain, fast heartbeat, slow heartbeat, confusion, dizziness"],
+    "responses" : ["You seem to have hypertension", "It's just a hypertension, no worries"],
+    "questions" : ["does your vision get blurred?", "have you fainted recently?"]
+  },
+  {
+    "tag" : "diabetes T1",
+    "patterns" : ["excessive urinations, excessive thirst, weight loss, constant hunger", "frequent discharge urine, thirst, weight loss"],
+    "responses" : ["You have Type 1 Diabetes", "You seem to have type 1 diabetes"],
+    "questions" : ["do you urinate frequently?", "Do your hands or feet feel numb?", "has your skin looked dry lately?"]
+  },
+  {
+    "tag": "",
+    "patterns" : [],
+    "responses" : []
+  }
+]}
